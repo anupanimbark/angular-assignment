@@ -1,0 +1,102 @@
+[
+    {
+        "id": "6f28b2eb-56a4-495a-86b6-9925944b7bd4",
+        "first_name": "Julianne",
+        "last_name": "Gorey",
+        "email": "jgorey0@unicef.org",
+        "gender": "Female",
+        "gross_salary": 10000,
+        "designation": "Senior Editor",
+        "working_days": 16
+    },
+    {
+        "id": "4f73d875-2a22-40cc-a9cb-73b6e1ef799a",
+        "first_name": "Wolfy",
+        "last_name": "Nott",
+        "email": "wnott1@lycos.com",
+        "gender": "Polygender",
+        "gross_salary": 10000,
+        "designation": "Senior Quality Engineer",
+        "working_days": 19
+    },
+    {
+        "id": "68180470-1a75-47c4-91a3-efdce1723186",
+        "first_name": "Elyse",
+        "last_name": "Spottiswoode",
+        "email": "espottiswoode2@ebay.co.uk",
+        "gender": "Female",
+        "gross_salary": 10000,
+        "designation": "Human Resources Assistant I",
+        "working_days": 24
+    },
+    {
+        "id": "26d0d430-d3ce-4c7b-879f-599e534110f8",
+        "first_name": "Isabelle",
+        "last_name": "Gillibrand",
+        "email": "igillibrand3@ebay.com",
+        "gender": "Non-binary",
+        "gross_salary": 10000,
+        "designation": "Web Designer II",
+        "working_days": 23
+    },
+    {
+        "id": "54b8ba3a-27eb-4129-a61b-e38d2fed1aec",
+        "first_name": "Cherianne",
+        "last_name": "Peet",
+        "email": "cpeet4@altervista.org",
+        "gender": "Non-binary",
+        "gross_salary": 10000,
+        "designation": "Desktop Support Technician",
+        "working_days": 15
+    },
+    {
+        "id": "fac3081b-a8f6-4593-b6e4-6d1abeeed8a0",
+        "first_name": "Kyla",
+        "last_name": "Stave",
+        "email": "kstave5@google.it",
+        "gender": "Non-binary",
+        "gross_salary": 10000,
+        "designation": "Registered Nurse",
+        "working_days": 20
+    },
+    {
+        "id": "4d473898-8a72-440c-a10b-c26d6f19095b",
+        "first_name": "Nikki",
+        "last_name": "Pick",
+        "email": "npick6@unc.edu",
+        "gender": "Non-binary",
+        "gross_salary": 10000,
+        "designation": "Nurse Practicioner",
+        "working_days": 19
+    },
+    {
+        "id": "aca580bd-b226-4239-8adc-dc97b04773e4",
+        "first_name": "Guillema",
+        "last_name": "Glide",
+        "email": "gglide7@imgur.com",
+        "gender": "Bigender",
+        "gross_salary": 10000,
+        "designation": "Environmental Specialist",
+        "working_days": 21
+    },
+    {
+        "id": "7512c9c9-58d4-4b89-9b39-124147f7a2a9",
+        "first_name": "Robinette",
+        "last_name": "Minnis",
+        "email": "rminnis8@google.nl",
+        "gender": "Female",
+        "gross_salary": 10000,
+        "designation": "Financial Advisor",
+        "working_days": 16
+    },
+    {
+        "id": "3e788515-f688-451d-b711-37c890aee01c",
+        "first_name": "Brooks",
+        "last_name": "McTrustie",
+        "email": "bmctrustie9@jimdo.com",
+        "gender": "Non-binary",
+        "gross_salary": 10000,
+        "designation": "Payment Adjustment Coordinator",
+        "working_days": 20
+    }
+]

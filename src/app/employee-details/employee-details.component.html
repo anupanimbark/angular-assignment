@@ -1,0 +1,91 @@
+<div class="clsEmpDetailsTable">
+    <!-- <h4>{{varUrl}}</h4> -->
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">FirstName</th>
+                <th scope="col">LastName</th>
+                <th scope="col">Email</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Gross salary</th>
+                <th scope="col">Designation</th>
+                <th scope="col">Workingdays</th>
+                <th scope="col">Current Month Salary</th>
+                <th scope="col">Button</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let emp of objEmployee" (click)="funGetId(emp)">
+                <td>{{emp.id}}</td>
+                <td>{{emp.first_name}}</td>
+                <td>{{emp.last_name}}</td>
+                <td>{{emp.email}}</td>
+                <td>{{emp.gender}}</td>
+                <td>{{emp.gross_salary}}</td>
+                <td>{{emp.designation}}</td>
+                <td>{{emp.working_days}}</td>
+                <td>{{emp.gross_salary / 24 * emp.working_days | number : '1.0-0'}}</td>
+                <td><button (click)="open(content)">ViewAttendanceDetails</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <ng-template #content let-modal>
+
+        <div class="modal-header">
+          <h4 class="modal-title" id="modal-basic-title">Attendance Details</h4>
+         
+        </div>
+
+        <div class="modal-body"> 
+
+            <table class="table table-striped" id="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Emp Id</th>
+                        <th scope="col">In time</th>
+                        <th scope="col">Out time</th>
+                        <th scope="col">Total Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr *ngFor="let empDetails of obj2" >
+                        {{funGetHours(empDetails)}}
+                        <td>{{empDetails.id}}</td>
+                        <td>{{empDetails.employee_id}}</td>
+                        <td>{{empDetails.in_time }}</td>
+                        <td>{{empDetails.out_time}}</td>
+                        <td>{{hours | number : '1.0-0'}}</td>
+                    </tr>
+                </tbody>
+                
+            </table>
+<!--        <script type="text/javascript">
+            alert("hello");
+            var table = document.getElementById("table"), sumVal = 0;
+
+            for(var i = 1; i < table.rows.length; i++)
+            {
+                sumVal = sumVal + parseInt(table.rows[i].cells[4].innerHTML);
+            }
+
+            document.getElementById("val").innerHTML = "Sum Value = " + sumVal;
+            console.log(sumVal);
+            </script> -->            
+        </div>
+        
+        <div class="modal-footer"> 
+            
+            <h5>Total Hours worked in a month</h5>
+            <h4>{{totalhours}}</h4>
+        </div>
+    </ng-template>
+      
+    <!-- <button class="btn btn-lg btn-outline-primary" (click)="open(content)">Launch demo modal</button> -->
+      
+
+</div>
